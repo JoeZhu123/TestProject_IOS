@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82ADB2D1DA79E0B0076E4BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82ADB2C1DA79E0B0076E4BA /* main.m */; };
+		D82ADB301DA79E0B0076E4BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82ADB2F1DA79E0B0076E4BA /* AppDelegate.m */; };
+		D82ADB331DA79E0B0076E4BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82ADB321DA79E0B0076E4BA /* ViewController.m */; };
+		D82ADB361DA79E0B0076E4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82ADB341DA79E0B0076E4BA /* Main.storyboard */; };
+		D82ADB381DA79E0B0076E4BA /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82ADB371DA79E0B0076E4BA /* Image.xcassets */; };
+		D82ADB3B1DA79E0B0076E4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82ADB391DA79E0B0076E4BA /* LaunchScreen.storyboard */; };
+		D82ADB441DA79EF80076E4BA /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = D82ADB431DA79EF80076E4BA /* BallView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D82ADB281DA79E0B0076E4BA /* BallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82ADB2C1DA79E0B0076E4BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D82ADB2E1DA79E0B0076E4BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D82ADB2F1DA79E0B0076E4BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D82ADB311DA79E0B0076E4BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D82ADB321DA79E0B0076E4BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D82ADB351DA79E0B0076E4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82ADB371DA79E0B0076E4BA /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		D82ADB3A1DA79E0B0076E4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D82ADB3C1DA79E0B0076E4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82ADB421DA79EF80076E4BA /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		D82ADB431DA79EF80076E4BA /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82ADB251DA79E0B0076E4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82ADB1F1DA79E0B0076E4BA = {
+			isa = PBXGroup;
+			children = (
+				D82ADB2A1DA79E0B0076E4BA /* BallGame */,
+				D82ADB291DA79E0B0076E4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82ADB291DA79E0B0076E4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82ADB281DA79E0B0076E4BA /* BallGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82ADB2A1DA79E0B0076E4BA /* BallGame */ = {
+			isa = PBXGroup;
+			children = (
+				D82ADB421DA79EF80076E4BA /* BallView.h */,
+				D82ADB431DA79EF80076E4BA /* BallView.m */,
+				D82ADB2E1DA79E0B0076E4BA /* AppDelegate.h */,
+				D82ADB2F1DA79E0B0076E4BA /* AppDelegate.m */,
+				D82ADB311DA79E0B0076E4BA /* ViewController.h */,
+				D82ADB321DA79E0B0076E4BA /* ViewController.m */,
+				D82ADB341DA79E0B0076E4BA /* Main.storyboard */,
+				D82ADB371DA79E0B0076E4BA /* Image.xcassets */,
+				D82ADB391DA79E0B0076E4BA /* LaunchScreen.storyboard */,
+				D82ADB3C1DA79E0B0076E4BA /* Info.plist */,
+				D82ADB2B1DA79E0B0076E4BA /* Supporting Files */,
+			);
+			path = BallGame;
+			sourceTree = "<group>";
+		};
+		D82ADB2B1DA79E0B0076E4BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82ADB2C1DA79E0B0076E4BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82ADB271DA79E0B0076E4BA /* BallGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82ADB3F1DA79E0B0076E4BA /* Build configuration list for PBXNativeTarget "BallGame" */;
+			buildPhases = (
+				D82ADB241DA79E0B0076E4BA /* Sources */,
+				D82ADB251DA79E0B0076E4BA /* Frameworks */,
+				D82ADB261DA79E0B0076E4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallGame;
+			productName = BallGame;
+			productReference = D82ADB281DA79E0B0076E4BA /* BallGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82ADB201DA79E0B0076E4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					D82ADB271DA79E0B0076E4BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JE7S4R2FQG;
+					};
+				};
+			};
+			buildConfigurationList = D82ADB231DA79E0B0076E4BA /* Build configuration list for PBXProject "BallGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82ADB1F1DA79E0B0076E4BA;
+			productRefGroup = D82ADB291DA79E0B0076E4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82ADB271DA79E0B0076E4BA /* BallGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82ADB261DA79E0B0076E4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82ADB3B1DA79E0B0076E4BA /* LaunchScreen.storyboard in Resources */,
+				D82ADB381DA79E0B0076E4BA /* Image.xcassets in Resources */,
+				D82ADB361DA79E0B0076E4BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82ADB241DA79E0B0076E4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82ADB331DA79E0B0076E4BA /* ViewController.m in Sources */,
+				D82ADB301DA79E0B0076E4BA /* AppDelegate.m in Sources */,
+				D82ADB2D1DA79E0B0076E4BA /* main.m in Sources */,
+				D82ADB441DA79EF80076E4BA /* BallView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D82ADB341DA79E0B0076E4BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82ADB351DA79E0B0076E4BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D82ADB391DA79E0B0076E4BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82ADB3A1DA79E0B0076E4BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82ADB3D1DA79E0B0076E4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d31368a4-43a8-4e66-a332-eefc32045560";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D82ADB3E1DA79E0B0076E4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d31368a4-43a8-4e66-a332-eefc32045560";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82ADB401DA79E0B0076E4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				INFOPLIST_FILE = BallGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joe.BallGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D82ADB411DA79E0B0076E4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 1668045443@qq.com (RMWQ8YZ7F8)";
+				INFOPLIST_FILE = BallGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joe.BallGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82ADB231DA79E0B0076E4BA /* Build configuration list for PBXProject "BallGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82ADB3D1DA79E0B0076E4BA /* Debug */,
+				D82ADB3E1DA79E0B0076E4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82ADB3F1DA79E0B0076E4BA /* Build configuration list for PBXNativeTarget "BallGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82ADB401DA79E0B0076E4BA /* Debug */,
+				D82ADB411DA79E0B0076E4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82ADB201DA79E0B0076E4BA /* Project object */;
+}

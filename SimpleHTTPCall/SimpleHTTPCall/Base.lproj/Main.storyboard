@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMD-CX-E8V">
+                                <rect key="frame" x="243" y="59" width="114" height="30"/>
+                                <state key="normal" title="Download HTML"/>
+                                <connections>
+                                    <action selector="downloadHtml:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXK-GP-CqS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fUM-Ex-vOn">
+                                <rect key="frame" x="0.0" y="183" width="600" height="280"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dr7-ql-x9H" userLabel="web adress">
+                                <rect key="frame" x="200" y="97" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="44f-JQ-E1E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDoneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="awb-S7-Ked"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gMD-CX-E8V" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="4vH-Ca-Fiv"/>
+                            <constraint firstItem="fUM-Ex-vOn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5wY-UL-4RO"/>
+                            <constraint firstItem="fUM-Ex-vOn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HiX-Kb-vci"/>
+                            <constraint firstItem="dr7-ql-x9H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KOz-4G-uS3"/>
+                            <constraint firstItem="dr7-ql-x9H" firstAttribute="top" secondItem="gMD-CX-E8V" secondAttribute="bottom" constant="8" id="QqZ-TT-reG"/>
+                            <constraint firstItem="gMD-CX-E8V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uoh-IP-5jD"/>
+                        </constraints>
+                        <connections>
+                            <action selector="backgroundTap:" destination="BYZ-38-t0r" eventType="touchDown" id="DEm-Mu-GeE"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="responseView" destination="fUM-Ex-vOn" id="fdg-nG-SsS"/>
+                        <outlet property="webAdress" destination="dr7-ql-x9H" id="AQs-yJ-oso"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="311"/>
+        </scene>
+    </scenes>
+</document>
